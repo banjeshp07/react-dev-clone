@@ -1,6 +1,6 @@
 # React.dev Clone - Frontend MVP
 
-**Live Demo:** [React.dev Clone Live](https://your-netlify-app.netlify.app)  
+**Live Demo:** [React.dev Clone Live](https://68b0d273121baf8dffb887cb--grand-figolla-7faa52.netlify.app/)  
 
 ---
 
@@ -58,10 +58,10 @@ Open http://localhost:5173 in your browser
 Live Deployment
 The project is deployed on Netlify for live demo:
 
-https://your-netlify-app.netlify.app
+https://68b0d273121baf8dffb887cb--grand-figolla-7faa52.netlify.app/
 
 Contact:
 
 GitHub: banjeshp07
 
-Email: hpbanjesh2003@gmail.com
+Email: banjeshpandey07@gmail.com
