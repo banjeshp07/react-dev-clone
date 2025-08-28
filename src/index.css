@@ -1,0 +1,102 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-link.active {
+  color: #61dafb !important;
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #20232a;
+  color: #61dafb;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+/* Spinning React logo */
+.react-logo {
+  width: 120px;
+  height: 120px;
+  animation: spin 20s linear infinite;
+  margin: 0 auto;
+  display: block;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Docs sidebar */
+.list-group-item.active {
+  background-color: #61dafb;
+  border-color: #61dafb;
+  color: #fff;
+}
+
+/* Code blocks */
+pre {
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+/* Sections spacing */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Footer */
+footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+}
+.navbar-nav .nav-link.active {
+  color: #61dafb !important;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: #61dafb !important;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+
+.navbar-brand img {
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navbar-nav .nav-link.active {
+  color: #61dafb !important;
+  font-weight: bold;
+}
